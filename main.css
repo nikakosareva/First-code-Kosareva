@@ -1,0 +1,108 @@
+.test{
+    color: blue;   
+}
+/*Селектор по классу = (.) = определяем точный элемент*/
+
+h1{
+    font-family: montserrat;
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+/*Селектор по типу элемента = на всё т к не определяем точный элемент */
+
+#my-id{
+    font-size: large;
+}
+/*Селектор по идентификатору */
+
+ul > li {
+    font-weight: 800
+}
+/* Селектор потомков */
+
+nav > ol {
+    background-color: rgb(0, 234, 255);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    }
+/*Параметры заднего фона */
+
+    a{
+        color:blue;
+    }
+
+    a:hover{
+        color: blueviolet;
+    }
+/* Селектор псевдоклассов*/
+
+a:active{
+    color: rgb(0, 255, 4);
+}
+
+li:first-child {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+h2 + p{
+    font-weight: bold;
+    color: blueviolet;
+    font-size: larger;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+.kubik{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.corzina{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 179, 0);
+    border-radius: 28px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+.content-container{
+    background-color: blue;
+    border-radius: 2%;
+    padding: 3% 1% ;
+    margin-top: 3%;
+}
+
+.section{
+    border: solid 1px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(136, 155, 170);
+    border-radius: 28px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+section{
+    border: solid 1px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 98, 151);
+    border-radius: 28px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
